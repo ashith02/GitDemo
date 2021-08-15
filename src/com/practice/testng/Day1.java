@@ -8,7 +8,7 @@ public class Day1 {
 
 	@AfterSuite
 	public void alwayslastExecution() {
-		System.out.println("I am no.1 always,I will execute last");
+		System.out.println("I am no.1 always,I will execute lasttttt");
 	}
 
 	@AfterTest
