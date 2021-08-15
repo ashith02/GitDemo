@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-13T16:40:04Z" name="Default suite" finished-at="2021-06-13T16:40:04Z" duration-ms="38">
+    <groups>
+      <group name="Smoke Test">
+        <method signature="Day2.pLoan()[pri:0, instance:com.practice.testng.Day2@38afe297]" name="pLoan" class="com.practice.testng.Day2"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2021-06-13T16:40:04Z" name="Default test" finished-at="2021-06-13T16:40:04Z" duration-ms="38">
+      <class name="com.practice.testng.Day2">
+        <test-method is-config="true" signature="befclass()[pri:0, instance:com.practice.testng.Day2@38afe297]" started-at="2021-06-13T16:40:04Z" name="befclass" finished-at="2021-06-13T16:40:04Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befclass -->
+        <test-method signature="pLoan()[pri:0, instance:com.practice.testng.Day2@38afe297]" started-at="2021-06-13T16:40:04Z" name="pLoan" finished-at="2021-06-13T16:40:04Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pLoan -->
+        <test-method is-config="true" signature="methodFirst()[pri:0, instance:com.practice.testng.Day2@38afe297]" started-at="2021-06-13T16:40:04Z" name="methodFirst" finished-at="2021-06-13T16:40:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodFirst -->
+        <test-method is-config="true" signature="methodLat()[pri:0, instance:com.practice.testng.Day2@38afe297]" started-at="2021-06-13T16:40:04Z" name="methodLat" finished-at="2021-06-13T16:40:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLat -->
+        <test-method is-config="true" signature="afclass()[pri:0, instance:com.practice.testng.Day2@38afe297]" started-at="2021-06-13T16:40:04Z" name="afclass" finished-at="2021-06-13T16:40:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afclass -->
+      </class> <!-- com.practice.testng.Day2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

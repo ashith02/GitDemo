@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name ="URL" value ="google.com" />
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.practice.testng.Day1"/>
+      <class name="com.practice.testng.Day2"/>
+    </classes>
+    </test>
+    <test thread-count="5" name="Car Loan">
+    <classes>
+      <class name="com.practice.testng.Day3">
+      <methods>
+         <include name = "mobile.*"/>
+       </methods>
+      </class>
+    </classes>
+    </test>
+    <test thread-count="5" name="Home Loan">
+    <classes>
+      <class name="com.practice.testng.Day4">
+      <methods>
+      <exclude name = "webHomeLoan"/>
+      <exclude name = "apiHomeLoan"/>
+      </methods>
+     </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
